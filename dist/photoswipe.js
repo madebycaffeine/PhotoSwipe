@@ -788,7 +788,6 @@ var publicMethods = {
 		}
 
 		if(_options.rtl) {
-			console.log('rtl option', _options.rtl);
 			// reversing the array -- https://github.com/dimsemenov/PhotoSwipe/issues/818
 			firstEl = items[0];
 			items = items.reverse();
@@ -3489,8 +3488,6 @@ var _historyUpdateTimeout,
 		return params;
 	},
 	_updateHash = function() {
-
-		console.log('update');
 
 		if(_hashAnimCheckTimeout) {
 			clearTimeout(_hashAnimCheckTimeout);
